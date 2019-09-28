@@ -11,7 +11,7 @@ autojs+tasker的自动打卡**晓黑板**的脚本，扔个手机在公司就能
 
 其实可以做解锁的，但我就懒得做了，反正只用来打卡的😂
 
-![set](https://tva1.sinaimg.cn/large/006y8mN6gy1g7ezhh0ucbj30u01hc44m.jpg)
+![set](https://tva1.sinaimg.cn/large/006y8mN6gy1g7f1axqn8kj30u01hc0x1.jpg)
 
 ### 安装autojs和tasker
 
@@ -43,7 +43,7 @@ autojs+tasker的自动打卡**晓黑板**的脚本，扔个手机在公司就能
 
 先设置**任务**，再设置**配置文件**
 
-![tasker](https://tva1.sinaimg.cn/large/006y8mN6gy1g7ezl2lxrnj30u01hcq67.jpg)
+![tasker](https://tva1.sinaimg.cn/large/006y8mN6gy1g7f1b8ykynj30u01hcq4x.jpg)
 
 #### 设置任务
 
