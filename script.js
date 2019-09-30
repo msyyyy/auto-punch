@@ -1,3 +1,4 @@
+// 晓黑板打卡脚本
 (() => {
   const backToMain = function () {
     const main = "org.xinkb.blackboard.android.ui.activity.MainActivity"
