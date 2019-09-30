@@ -1,7 +1,7 @@
 (() => {
   const backToMain = function () {
     const main = "org.xinkb.blackboard.android.ui.activity.MainActivity"
-    const backLimit = 8
+    let backLimit = 8
     while (currentActivity() !== main && backLimit !== 0) {
       back()
       backLimit--
