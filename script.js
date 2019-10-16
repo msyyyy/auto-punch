@@ -56,6 +56,7 @@
   console.log("random sleep " + Math.floor(sleepTime / 1000) + " s")
   device.keepScreenOn(sleepTime)
   sleep(sleepTime)
+  device.wakeUp()
   console.log("random sleep end")
   // 1. 开启晓黑板
   toXiaoMain()
@@ -63,7 +64,7 @@
   // 2. 点击考勤打卡
   // 考勤打卡这个按钮幺蛾子很多，就单独拿出来写了
   let btn = text("考勤打卡").findOne(6000)
-  .parent() // 等6秒，是为了防止冷启动需要等很久，超过6秒都打不开可以换手机了。。
+    .parent() // 等6秒，是为了防止冷启动需要等很久，超过6秒都打不开可以换手机了。。
   if (btn) {
     btn.click()
     console.log("考勤打卡 已点击")
